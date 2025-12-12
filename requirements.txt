@@ -1,0 +1,32 @@
+# RAY Framework Tutorial - Requirements
+# Python 3.8+ required
+
+# Core RAY framework with dashboard and default components
+ray[default]>=2.9.0,<3.0.0
+
+# Jupyter ecosystem
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# Machine learning frameworks
+scikit-learn>=1.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Additional utilities
+requests>=2.31.0
+tqdm>=4.65.0
+
+# Optional: For advanced examples (uncomment if needed)
+xgboost>=1.7.0
